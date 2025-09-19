@@ -1131,7 +1131,7 @@ Class Start: net.mcreator.aturaparasiteinfection.command.CommandGetPoints
 Class End  : net.mcreator.aturaparasiteinfection.command.CommandGetPoints
 endProcessing "net/mcreator/aturaparasiteinfection/command/CommandGetPoints.java"
 
-startProcessing "net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java" md5: 529594e7f19a87f05b4867a9e11b52ef
+startProcessing "net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java" md5: 9ea53d5c20d8f0b033d171f04d71b060
 @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|10|52|net.mcreator.aturaparasiteinfection.entity|package|net.mcreator.aturaparasiteinfection.entity|(file)
 Class Start: net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid
    @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|1901|1946|ElementsAturaParasiteInfection.ModElement.Tag|class|net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection.ModElement.Tag|false
@@ -1370,45 +1370,47 @@ Class Start: net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoi
          @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6429|6435|Object|class|java.lang.Object|false
          @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6458|6475|java.util.HashMap|class|java.util.HashMap|false
          @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6501|6504|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6534|6537|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6567|6570|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6600|6603|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6613|6618|world|field|net.minecraft.entity.Entity|world
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6626|6647|ProcedureParasiteKill|class|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6648|6664|executeProcedure|method|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6515|6521|entity|param|net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid.EntityCustom|onKillEntity|(Lnet/minecraft/entity/EntityLivingBase;)V|entity|0
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6544|6547|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6577|6580|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6610|6613|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6643|6646|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6656|6661|world|field|net.minecraft.entity.Entity|world
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6669|6690|ProcedureParasiteKill|class|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6691|6707|executeProcedure|method|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V
       Method End: onKillEntity(Lnet/minecraft/entity/EntityLivingBase;)V
       Method Start: applyEntityAttributes()V
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6699|6707|Override|class|java.lang.Override|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6726|6747|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6762|6783|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6800|6818|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6819|6842|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6843|6848|ARMOR|field|net.minecraft.entity.SharedMonsterAttributes|ARMOR
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6869|6887|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6888|6911|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6912|6917|ARMOR|field|net.minecraft.entity.SharedMonsterAttributes|ARMOR
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6919|6931|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6950|6968|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6969|6992|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6993|7007|MOVEMENT_SPEED|field|net.minecraft.entity.SharedMonsterAttributes|MOVEMENT_SPEED
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7028|7046|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7047|7070|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7071|7085|MOVEMENT_SPEED|field|net.minecraft.entity.SharedMonsterAttributes|MOVEMENT_SPEED
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7087|7099|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7120|7138|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7139|7162|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7163|7173|MAX_HEALTH|field|net.minecraft.entity.SharedMonsterAttributes|MAX_HEALTH
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7194|7212|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7213|7236|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7237|7247|MAX_HEALTH|field|net.minecraft.entity.SharedMonsterAttributes|MAX_HEALTH
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7249|7261|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7281|7299|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7300|7323|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7324|7337|ATTACK_DAMAGE|field|net.minecraft.entity.SharedMonsterAttributes|ATTACK_DAMAGE
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7358|7376|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7377|7400|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7401|7414|ATTACK_DAMAGE|field|net.minecraft.entity.SharedMonsterAttributes|ATTACK_DAMAGE
-         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7416|7428|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6742|6750|Override|class|java.lang.Override|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6769|6790|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6805|6826|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6843|6861|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6862|6885|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6886|6891|ARMOR|field|net.minecraft.entity.SharedMonsterAttributes|ARMOR
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6912|6930|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6931|6954|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6955|6960|ARMOR|field|net.minecraft.entity.SharedMonsterAttributes|ARMOR
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6962|6974|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|6993|7011|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7012|7035|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7036|7050|MOVEMENT_SPEED|field|net.minecraft.entity.SharedMonsterAttributes|MOVEMENT_SPEED
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7071|7089|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7090|7113|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7114|7128|MOVEMENT_SPEED|field|net.minecraft.entity.SharedMonsterAttributes|MOVEMENT_SPEED
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7130|7142|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7163|7181|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7182|7205|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7206|7216|MAX_HEALTH|field|net.minecraft.entity.SharedMonsterAttributes|MAX_HEALTH
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7237|7255|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7256|7279|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7280|7290|MAX_HEALTH|field|net.minecraft.entity.SharedMonsterAttributes|MAX_HEALTH
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7292|7304|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7324|7342|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7343|7366|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7367|7380|ATTACK_DAMAGE|field|net.minecraft.entity.SharedMonsterAttributes|ATTACK_DAMAGE
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7401|7419|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7420|7443|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7444|7457|ATTACK_DAMAGE|field|net.minecraft.entity.SharedMonsterAttributes|ATTACK_DAMAGE
+         @|net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java|7459|7471|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
       Method End: applyEntityAttributes()V
    Class End  : net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid.EntityCustom
 Class End  : net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid
@@ -1509,70 +1511,87 @@ Class Start: net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteDeat
 Class End  : net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteDeath
 endProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteDeath.java"
 
-startProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java" md5: 4d36f0dfa405bce26fd9d6d505245f41
+startProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java" md5: 9fbec801911335e15599929c43e9059e
 @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|8|53|net.mcreator.aturaparasiteinfection.procedure|package|net.mcreator.aturaparasiteinfection.procedure|(file)
 Class Start: net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill
-   @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|366|411|ElementsAturaParasiteInfection.ModElement.Tag|class|net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection.ModElement.Tag|false
-   @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|426|447|ProcedureParasiteKill|class|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|false
-   @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|456|497|ElementsAturaParasiteInfection.ModElement|class|net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection.ModElement|false
+   @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|417|462|ElementsAturaParasiteInfection.ModElement.Tag|class|net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection.ModElement.Tag|false
+   @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|477|498|ProcedureParasiteKill|class|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|false
+   @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|507|548|ElementsAturaParasiteInfection.ModElement|class|net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection.ModElement|false
    Method Start: ProcedureParasiteKill(Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|562|570|instance|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|ProcedureParasiteKill|(Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V|instance|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|509|530|ProcedureParasiteKill|method|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|ProcedureParasiteKill|(Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|531|561|ElementsAturaParasiteInfection|class|net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|583|591|instance|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|ProcedureParasiteKill|(Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V|instance|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|613|621|instance|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|ProcedureParasiteKill|(Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V|instance|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|560|581|ProcedureParasiteKill|method|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|ProcedureParasiteKill|(Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|582|612|ElementsAturaParasiteInfection|class|net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|634|642|instance|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|ProcedureParasiteKill|(Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V|instance|0
    Method End: ProcedureParasiteKill(Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V
    Method Start: executeProcedure(Ljava/util/HashMap;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|675|687|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|624|640|executeProcedure|method|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|641|658|java.util.HashMap|class|java.util.HashMap|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|659|665|String|class|java.lang.String|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|667|673|Object|class|java.lang.Object|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|698|710|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|711|714|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|735|741|System|class|java.lang.System|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|742|745|err|field|java.lang.System|err
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|746|753|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|838|850|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|851|854|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|875|881|System|class|java.lang.System|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|882|885|err|field|java.lang.System|err
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|886|893|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|978|990|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|991|994|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1015|1021|System|class|java.lang.System|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1022|1025|err|field|java.lang.System|err
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1026|1033|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1118|1130|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1131|1134|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1159|1165|System|class|java.lang.System|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1166|1169|err|field|java.lang.System|err
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1170|1177|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1276|1288|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1289|1292|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1316|1328|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1329|1332|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1356|1368|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1369|1372|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1382|1387|World|class|net.minecraft.world.World|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1397|1402|World|class|net.minecraft.world.World|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1404|1416|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1417|1420|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1434|1478|AturaParasiteInfectionVariables.MapVariables|class|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1485|1488|get|method|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables$MapVariables;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1496|1502|points|field|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|points
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1516|1560|AturaParasiteInfectionVariables.MapVariables|class|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1561|1564|get|method|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables$MapVariables;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1572|1578|points|field|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|points
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1589|1633|AturaParasiteInfectionVariables.MapVariables|class|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1634|1637|get|method|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables$MapVariables;
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1645|1653|syncData|method|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|syncData|(Lnet/minecraft/world/World;)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1676|1684|isRemote|field|net.minecraft.world.World|isRemote
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1692|1698|Entity|class|net.minecraft.entity.Entity|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1719|1757|EntityAssimilatedHumanoid.EntityCustom|class|net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid.EntityCustom|false
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1818|1838|setLocationAndAngles|method|net.minecraft.entity.Entity|setLocationAndAngles|(DDDFF)V
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1854|1858|rand|field|net.minecraft.world.World|rand
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1859|1868|nextFloat|method|java.util.Random|nextFloat|()F
-      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1897|1908|spawnEntity|method|net.minecraft.world.World|spawnEntity|(Lnet/minecraft/entity/Entity;)Z
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|726|738|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|675|691|executeProcedure|method|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|692|709|java.util.HashMap|class|java.util.HashMap|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|710|716|String|class|java.lang.String|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|718|724|Object|class|java.lang.Object|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|749|761|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|762|765|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|791|797|System|class|java.lang.System|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|798|801|err|field|java.lang.System|err
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|802|809|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|899|911|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|912|915|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|936|942|System|class|java.lang.System|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|943|946|err|field|java.lang.System|err
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|947|954|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1039|1051|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1052|1055|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1076|1082|System|class|java.lang.System|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1083|1086|err|field|java.lang.System|err
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1087|1094|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1179|1191|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1192|1195|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1216|1222|System|class|java.lang.System|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1223|1226|err|field|java.lang.System|err
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1227|1234|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1319|1331|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1332|1335|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1360|1366|System|class|java.lang.System|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1367|1370|err|field|java.lang.System|err
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1371|1378|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1463|1469|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1480|1486|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1488|1500|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1501|1504|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1533|1545|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1546|1549|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1573|1585|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1586|1589|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1613|1625|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1626|1629|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1639|1644|World|class|net.minecraft.world.World|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1654|1659|World|class|net.minecraft.world.World|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1661|1673|dependencies|param|net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1674|1677|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1712|1756|AturaParasiteInfectionVariables.MapVariables|class|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1763|1766|get|method|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables$MapVariables;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1774|1780|points|field|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|points
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1794|1838|AturaParasiteInfectionVariables.MapVariables|class|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1839|1842|get|method|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables$MapVariables;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1850|1856|points|field|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|points
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1867|1911|AturaParasiteInfectionVariables.MapVariables|class|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1912|1915|get|method|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|get|(Lnet/minecraft/world/World;)Lnet/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables$MapVariables;
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|1923|1931|syncData|method|net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables.MapVariables|syncData|(Lnet/minecraft/world/World;)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2015|2027|EntityAnimal|class|net.minecraft.entity.passive.EntityAnimal|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2048|2056|isRemote|field|net.minecraft.world.World|isRemote
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2066|2072|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2093|2131|EntityAssimilatedHumanoid.EntityCustom|class|net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid.EntityCustom|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2196|2216|setLocationAndAngles|method|net.minecraft.entity.Entity|setLocationAndAngles|(DDDFF)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2232|2236|rand|field|net.minecraft.world.World|rand
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2237|2246|nextFloat|method|java.util.Random|nextFloat|()F
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2277|2288|spawnEntity|method|net.minecraft.world.World|spawnEntity|(Lnet/minecraft/entity/Entity;)Z
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2409|2417|isRemote|field|net.minecraft.world.World|isRemote
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2426|2432|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2453|2491|EntityAssimilatedHumanoid.EntityCustom|class|net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid.EntityCustom|false
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2554|2574|setLocationAndAngles|method|net.minecraft.entity.Entity|setLocationAndAngles|(DDDFF)V
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2590|2594|rand|field|net.minecraft.world.World|rand
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2595|2604|nextFloat|method|java.util.Random|nextFloat|()F
+      @|net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java|2634|2645|spawnEntity|method|net.minecraft.world.World|spawnEntity|(Lnet/minecraft/entity/Entity;)Z
    Method End: executeProcedure(Ljava/util/HashMap;)V
 Class End  : net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill
 endProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java"

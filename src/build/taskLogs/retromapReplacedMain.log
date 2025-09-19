@@ -268,29 +268,29 @@ Rename method net/minecraft/entity/Entity/onKillEntity (Lnet/minecraft/entity/En
 Rename field net/minecraft/entity/Entity/posX[6525,6529]::posX->field_70165_t
 Rename field net/minecraft/entity/Entity/posY[6563,6567]::posY->field_70163_u
 Rename field net/minecraft/entity/Entity/posZ[6601,6605]::posZ->field_70161_v
-Rename field net/minecraft/entity/Entity/world[6837,6842]::world->field_70170_p
-Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[6958,6979]::applyEntityAttributes->func_110147_ax
-Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[6987,7008]::applyEntityAttributes->func_110147_ax
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7018,7036]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[7056,7061]::ARMOR->field_188791_g
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7091,7109]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[7129,7134]::ARMOR->field_188791_g
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7145,7157]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7177,7195]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[7215,7229]::MOVEMENT_SPEED->field_111263_d
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7250,7268]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[7288,7302]::MOVEMENT_SPEED->field_111263_d
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7304,7316]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7338,7356]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[7376,7386]::MAX_HEALTH->field_111267_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7411,7429]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[7449,7459]::MAX_HEALTH->field_111267_a
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7465,7477]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7498,7516]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[7536,7549]::ATTACK_DAMAGE->field_111264_e
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7571,7589]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[7609,7622]::ATTACK_DAMAGE->field_111264_e
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7625,7637]::setBaseValue->func_111128_a
+Rename field net/minecraft/entity/Entity/world[6880,6885]::world->field_70170_p
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[7001,7022]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[7030,7051]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7061,7079]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[7099,7104]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7134,7152]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[7172,7177]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7188,7200]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7220,7238]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[7258,7272]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7293,7311]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[7331,7345]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7347,7359]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7381,7399]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[7419,7429]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7454,7472]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[7492,7502]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7508,7520]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7541,7559]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[7579,7592]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7614,7632]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[7652,7665]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7668,7680]::setBaseValue->func_111128_a
 Import: net.minecraftforge.fml.relauncher.SideOnly
 Import: net.minecraftforge.fml.relauncher.Side
 Import: net.minecraftforge.fml.common.registry.EntityRegistry
@@ -360,12 +360,18 @@ FOUND CONSTR method net/mcreator/aturaparasiteinfection/procedure/ProcedureParas
 New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
 New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
 New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
-Rename field net/minecraft/world/World/isRemote[1676,1684]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/isRemote[2048,2056]::isRemote->field_72995_K
 New Key: class net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid
-Rename method net/minecraft/entity/Entity/setLocationAndAngles (DDDFF)V[1823,1843]::setLocationAndAngles->func_70012_b
-Rename field net/minecraft/world/World/rand[1851,1855]::rand->field_73012_v
-Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[1903,1914]::spawnEntity->func_72838_d
+Rename method net/minecraft/entity/Entity/setLocationAndAngles (DDDFF)V[2201,2221]::setLocationAndAngles->func_70012_b
+Rename field net/minecraft/world/World/rand[2229,2233]::rand->field_73012_v
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[2283,2294]::spawnEntity->func_72838_d
+Rename field net/minecraft/world/World/isRemote[2416,2424]::isRemote->field_72995_K
+New Key: class net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid
+Rename method net/minecraft/entity/Entity/setLocationAndAngles (DDDFF)V[2566,2586]::setLocationAndAngles->func_70012_b
+Rename field net/minecraft/world/World/rand[2594,2598]::rand->field_73012_v
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[2647,2658]::spawnEntity->func_72838_d
 Import: net.minecraft.world.World
+Import: net.minecraft.entity.passive.EntityAnimal
 Import: net.minecraft.entity.Entity
 Import: net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid
 Import: net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection
