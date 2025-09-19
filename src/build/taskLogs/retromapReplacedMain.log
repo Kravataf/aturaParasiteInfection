@@ -1,0 +1,374 @@
+Processing 11 files
+Start Processing: net/mcreator/aturaparasiteinfection/AturaParasiteInfection.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.Item
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+End  Processing: net/mcreator/aturaparasiteinfection/AturaParasiteInfection.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables.java
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/MapVariables/MapVariables ()V net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/MapVariables
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[895,906]::readFromNBT->func_76184_a
+Rename method net/minecraft/nbt/NBTTagCompound/getDouble (Ljava/lang/String;)D[947,956]::getDouble->func_74769_h
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1016,1026]::writeToNBT->func_189551_b
+Rename method net/minecraft/nbt/NBTTagCompound/setDouble (Ljava/lang/String;D)V[1060,1069]::setDouble->func_74780_a
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1163,1172]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1193,1201]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1525,1538]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1541,1554]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1661,1674]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1677,1684]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/WorldVariables/WorldVariables ()V net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/WorldVariables
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[2034,2045]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[2114,2124]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2221,2230]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2251,2259]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2483,2491]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2652,2665]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2797,2804]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3163,3169]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[3178,3192]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3201,3217]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3275,3281]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3290,3295]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3331,3343]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3346,3362]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3403,3415]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3418,3424]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3432,3437]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3629,3638]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3822,3830]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3899,3912]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3915,3922]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[4012,4019]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4508,4518]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4776,4787]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.World
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.client.Minecraft
+End  Processing: net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/ClientProxyAturaParasiteInfection.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/mcreator/aturaparasiteinfection/ClientProxyAturaParasiteInfection.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection.java
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection/ElementsAturaParasiteInfection ()V net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection/ModElement
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[3771,3779]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4160,4165]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4174,4182]::isRemote->field_72995_K
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+Rename field net/minecraft/entity/Entity/world[4282,4287]::world->field_70170_p
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+Rename field net/minecraft/entity/Entity/world[4393,4398]::world->field_70170_p
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+Rename field net/minecraft/entity/Entity/world[4969,4974]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4983,4991]::isRemote->field_72995_K
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+Rename field net/minecraft/entity/Entity/world[5095,5100]::world->field_70170_p
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection/ModElement/ModElement (Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;I)V net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+Import: java.util.Random
+Import: java.util.Map
+Import: java.util.List
+Import: java.util.HashMap
+Import: java.util.Collections
+Import: java.util.ArrayList
+Import: java.lang.annotation.RetentionPolicy
+Import: java.lang.annotation.Retention
+End  Processing: net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/IProxyAturaParasiteInfection.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/aturaparasiteinfection/IProxyAturaParasiteInfection.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/ServerProxyAturaParasiteInfection.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/aturaparasiteinfection/ServerProxyAturaParasiteInfection.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/command/CommandGetPoints.java
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/command/CommandGetPoints/CommandGetPoints (Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V net/mcreator/aturaparasiteinfection/command/CommandGetPoints
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1165,1172]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1192,1199]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/checkPermission (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z[1247,1262]::checkPermission->func_184882_a
+Rename method net/minecraft/command/ICommand/getAliases ()Ljava/util/List;[1360,1370]::getAliases->func_71514_a
+Rename method net/minecraft/command/ICommand/getTabCompletions (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;[1440,1457]::getTabCompletions->func_184883_a
+Rename method net/minecraft/command/ICommand/isUsernameIndex ([Ljava/lang/String;I)Z[1598,1613]::isUsernameIndex->func_82358_a
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1695,1702]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/getUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[1778,1786]::getUsage->func_71518_a
+Rename method net/minecraft/command/ICommand/execute (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1893,1900]::execute->func_184881_a
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[1989,2000]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2005,2009]::getX->func_177958_n
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[2041,2052]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2057,2061]::getY->func_177956_o
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[2093,2104]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2109,2113]::getZ->func_177952_p
+Rename method net/minecraft/command/ICommandSender/getCommandSenderEntity ()Lnet/minecraft/entity/Entity;[2153,2175]::getCommandSenderEntity->func_174793_f
+Rename field net/minecraft/entity/Entity/world[2222,2227]::world->field_70170_p
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.server.MinecraftServer
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.command.ICommand
+Import: net.minecraft.command.CommandHandler
+Import: net.mcreator.aturaparasiteinfection.procedure.ProcedureGetPointsCommand
+Import: net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection
+Import: java.util.List
+Import: java.util.HashMap
+Import: java.util.Arrays
+Import: java.util.ArrayList
+End  Processing: net/mcreator/aturaparasiteinfection/command/CommandGetPoints.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid/EntityAssimilatedHumanoid (Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2639,2647]::REGISTRY->field_185377_q
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[3359,3375]::getEntityTexture->func_110775_a
+Rename method net/minecraft/client/renderer/entity/RenderLivingBase/addLayer (Lnet/minecraft/client/renderer/entity/layers/LayerRenderer;)Z[3513,3521]::addLayer->func_177094_a
+Rename method net/minecraft/client/renderer/entity/layers/LayerArmorBase/initArmor ()V[3627,3636]::initArmor->func_177177_a
+Rename field net/minecraft/client/renderer/entity/layers/LayerArmorBase/modelLeggings[3656,3669]::modelLeggings->field_177189_c
+Rename field net/minecraft/client/renderer/entity/layers/LayerArmorBase/modelArmor[3706,3716]::modelArmor->field_177186_d
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid/EntityCustom/EntityCustom (Lnet/minecraft/world/World;)V net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid/EntityCustom
+Rename method net/minecraft/entity/Entity/setSize (FF)V[3908,3915]::setSize->func_70105_a
+Rename field net/minecraft/entity/EntityLiving/experienceValue[3938,3953]::experienceValue->field_70728_aV
+Rename field net/minecraft/entity/Entity/isImmuneToFire[3967,3981]::isImmuneToFire->field_70178_ae
+Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[3995,4002]::setNoAI->func_94061_f
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[4054,4066]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[4082,4094]::initEntityAI->func_184651_r
+Rename field net/minecraft/entity/EntityLiving/targetTasks[4108,4119]::targetTasks->field_70715_bh
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4123,4130]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4188,4193]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4203,4210]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4271,4276]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4286,4293]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4341,4346]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4356,4363]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4410,4415]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4425,4432]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[4479,4484]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4494,4501]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/targetTasks[4565,4576]::targetTasks->field_70715_bh
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4580,4587]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/targetTasks[4683,4694]::targetTasks->field_70715_bh
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4698,4705]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/targetTasks[4803,4814]::targetTasks->field_70715_bh
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[4818,4825]::addTask->func_75776_a
+Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[4964,4984]::getCreatureAttribute->func_70668_bt
+Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[5064,5075]::getDropItem->func_146068_u
+Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[5159,5174]::getAmbientSound->func_184639_G
+Rename field net/minecraft/util/SoundEvent/REGISTRY[5250,5258]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[5265,5274]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[5365,5377]::getHurtSound->func_184601_bQ
+Rename field net/minecraft/util/SoundEvent/REGISTRY[5472,5480]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[5487,5496]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[5606,5619]::getDeathSound->func_184615_bR
+Rename field net/minecraft/util/SoundEvent/REGISTRY[5698,5706]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[5713,5722]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[5812,5826]::getSoundVolume->func_70599_aP
+Rename method net/minecraft/entity/EntityLivingBase/onDeath (Lnet/minecraft/util/DamageSource;)V[5882,5889]::onDeath->func_70645_a
+Rename method net/minecraft/entity/EntityLivingBase/onDeath (Lnet/minecraft/util/DamageSource;)V[5928,5935]::onDeath->func_70645_a
+Rename field net/minecraft/entity/Entity/posX[5973,5977]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[6011,6015]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[6049,6053]::posZ->field_70161_v
+Rename field net/minecraft/entity/Entity/world[6311,6316]::world->field_70170_p
+Rename method net/minecraft/entity/Entity/onKillEntity (Lnet/minecraft/entity/EntityLivingBase;)V[6430,6442]::onKillEntity->func_70074_a
+Rename method net/minecraft/entity/Entity/onKillEntity (Lnet/minecraft/entity/EntityLivingBase;)V[6480,6492]::onKillEntity->func_70074_a
+Rename field net/minecraft/entity/Entity/posX[6525,6529]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[6563,6567]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[6601,6605]::posZ->field_70161_v
+Rename field net/minecraft/entity/Entity/world[6837,6842]::world->field_70170_p
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[6958,6979]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[6987,7008]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7018,7036]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[7056,7061]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7091,7109]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[7129,7134]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7145,7157]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7177,7195]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[7215,7229]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7250,7268]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[7288,7302]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7304,7316]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7338,7356]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[7376,7386]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7411,7429]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[7449,7459]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7465,7477]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7498,7516]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[7536,7549]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[7571,7589]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[7609,7622]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[7625,7637]::setBaseValue->func_111128_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.client.registry.RenderingRegistry
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.util.DamageSource
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.entity.passive.EntityAnimal
+Import: net.minecraft.entity.monster.EntityMob
+Import: net.minecraft.entity.ai.EntityAIWander
+Import: net.minecraft.entity.ai.EntityAISwimming
+Import: net.minecraft.entity.ai.EntityAINearestAttackableTarget
+Import: net.minecraft.entity.ai.EntityAILookIdle
+Import: net.minecraft.entity.ai.EntityAILeapAtTarget
+Import: net.minecraft.entity.ai.EntityAIHurtByTarget
+Import: net.minecraft.entity.ai.EntityAIAttackMelee
+Import: net.minecraft.entity.SharedMonsterAttributes
+Import: net.minecraft.entity.EnumCreatureType
+Import: net.minecraft.entity.EnumCreatureAttribute
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.client.renderer.entity.RenderBiped
+Import: net.minecraft.client.model.ModelBiped
+Import: net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteKill
+Import: net.mcreator.aturaparasiteinfection.procedure.ProcedureParasiteDeath
+Import: net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection
+Import: java.util.Iterator
+Import: java.util.ArrayList
+End  Processing: net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/procedure/ProcedureGetPointsCommand.java
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/procedure/ProcedureGetPointsCommand/ProcedureGetPointsCommand (Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V net/mcreator/aturaparasiteinfection/procedure/ProcedureGetPointsCommand
+Rename method net/minecraft/server/MinecraftServer/getPlayerList ()Lnet/minecraft/server/management/PlayerList;[1073,1086]::getPlayerList->func_184103_al
+Rename method net/minecraft/server/management/PlayerList/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[1090,1101]::sendMessage->func_148539_a
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+Import: net.minecraftforge.fml.common.FMLCommonHandler
+Import: net.minecraft.world.World
+Import: net.minecraft.util.text.TextComponentString
+Import: net.minecraft.server.MinecraftServer
+Import: net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection
+Import: net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables
+End  Processing: net/mcreator/aturaparasiteinfection/procedure/ProcedureGetPointsCommand.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteDeath.java
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteDeath/ProcedureParasiteDeath (Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteDeath
+Rename field net/minecraft/world/World/isRemote[1259,1267]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/createExplosion (Lnet/minecraft/entity/Entity;DDDFZ)Lnet/minecraft/world/Explosion;[1286,1301]::createExplosion->func_72876_a
+Import: net.minecraft.world.World
+Import: net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection
+End  Processing: net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteDeath.java
+
+Start Processing: net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+New Key: class net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection
+FOUND CONSTR method net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill/ProcedureParasiteKill (Lnet/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection;)V net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+New Key: class net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables
+Rename field net/minecraft/world/World/isRemote[1676,1684]::isRemote->field_72995_K
+New Key: class net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid
+Rename method net/minecraft/entity/Entity/setLocationAndAngles (DDDFF)V[1823,1843]::setLocationAndAngles->func_70012_b
+Rename field net/minecraft/world/World/rand[1851,1855]::rand->field_73012_v
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[1903,1914]::spawnEntity->func_72838_d
+Import: net.minecraft.world.World
+Import: net.minecraft.entity.Entity
+Import: net.mcreator.aturaparasiteinfection.entity.EntityAssimilatedHumanoid
+Import: net.mcreator.aturaparasiteinfection.ElementsAturaParasiteInfection
+Import: net.mcreator.aturaparasiteinfection.AturaParasiteInfectionVariables
+End  Processing: net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java
+

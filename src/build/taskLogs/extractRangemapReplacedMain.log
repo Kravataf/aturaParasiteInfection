@@ -1,0 +1,37 @@
+Unsupposrted library path: C:\Users\creat\Documents\GitHub\aturaParasiteInfection\src\build\classes\java\api
+Unsupposrted library path: C:\Users\creat\Documents\GitHub\aturaParasiteInfection\src\build\resources\api
+Symbol range map extraction starting
+Processing 11 files
+startProcessing "net/mcreator/aturaparasiteinfection/AturaParasiteInfection.java" md5: e05e66f71ed448066d99ba6547371338
+endProcessing "net/mcreator/aturaparasiteinfection/AturaParasiteInfection.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables.java" md5: 250681d289a466160e4ea24ee9e01225
+endProcessing "net/mcreator/aturaparasiteinfection/AturaParasiteInfectionVariables.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/ClientProxyAturaParasiteInfection.java" md5: 2dce0ede9b2ae0fb77d1738a90bc61b3
+endProcessing "net/mcreator/aturaparasiteinfection/ClientProxyAturaParasiteInfection.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection.java" md5: 2c7973365409de96db4a92bff61bfb65
+endProcessing "net/mcreator/aturaparasiteinfection/ElementsAturaParasiteInfection.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/IProxyAturaParasiteInfection.java" md5: 71e37005fdb087c5ec6c336cc58c6d3a
+endProcessing "net/mcreator/aturaparasiteinfection/IProxyAturaParasiteInfection.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/ServerProxyAturaParasiteInfection.java" md5: 5716a4afe4784b1b28e271114ebcd709
+endProcessing "net/mcreator/aturaparasiteinfection/ServerProxyAturaParasiteInfection.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/command/CommandGetPoints.java" md5: 6694364626b4da95c760b89de18526f1
+endProcessing "net/mcreator/aturaparasiteinfection/command/CommandGetPoints.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java" md5: 529594e7f19a87f05b4867a9e11b52ef
+endProcessing "net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureGetPointsCommand.java" md5: 0227e2d34692f707e82b9e676086ecc2
+endProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureGetPointsCommand.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteDeath.java" md5: d061c750e762abac395b377957bbd71f
+endProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteDeath.java"
+
+startProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java" md5: 4d36f0dfa405bce26fd9d6d505245f41
+endProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureParasiteKill.java"
+
