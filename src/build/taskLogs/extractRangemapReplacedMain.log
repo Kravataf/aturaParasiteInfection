@@ -23,7 +23,7 @@ endProcessing "net/mcreator/aturaparasiteinfection/ServerProxyAturaParasiteInfec
 startProcessing "net/mcreator/aturaparasiteinfection/command/CommandGetPoints.java" md5: 6694364626b4da95c760b89de18526f1
 endProcessing "net/mcreator/aturaparasiteinfection/command/CommandGetPoints.java"
 
-startProcessing "net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java" md5: 9ea53d5c20d8f0b033d171f04d71b060
+startProcessing "net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java" md5: ac9b4f6e52a5f1b852234f96778ea0c6
 endProcessing "net/mcreator/aturaparasiteinfection/entity/EntityAssimilatedHumanoid.java"
 
 startProcessing "net/mcreator/aturaparasiteinfection/procedure/ProcedureGetPointsCommand.java" md5: 0227e2d34692f707e82b9e676086ecc2

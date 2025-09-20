@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Assimilated Humanoid",
     "mobLabel": "",
-    "mobModelTexture": "bided_placeholder.png",
-    "mobModelName": "Biped",
+    "mobModelTexture": "assimilatedhumanoid_texture.png",
+    "mobModelName": "Modelassimilatedhumanoid",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,

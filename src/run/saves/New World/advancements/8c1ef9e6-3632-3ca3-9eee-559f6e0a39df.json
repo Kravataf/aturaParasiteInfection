@@ -1,0 +1,20 @@
+{
+  "aturaparasiteinfection:atura": {
+    "criteria": {
+      "atura": "2025-09-20 10:17:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-09-20 10:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2025-09-20 10:17:09 +0200"
+    },
+    "done": false
+  }
+}
